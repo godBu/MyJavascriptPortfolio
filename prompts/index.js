@@ -121,7 +121,7 @@ for (let i = 0; i < str.length; i++) {
   console.log(str.charAt(i));
 
 }
-*/
+
 let name = "";
 
 while(true){
@@ -149,3 +149,34 @@ console.log(randNum);
 }
 
 console.log('fin');
+
+alert('Did it work?'); 
+
+document.getElementById("heading").style.color = "purple"; 
+document.getElementById("heading").style.backgroundColor = "pink"; */
+
+const myHeading = document.getElementById("heading");
+const button = document.getElementById("button");
+const input = document.getElementById("input");
+const paragraphs = document.getElementsByTagName("p");
+
+paragraphs[0].style.color = "red";
+
+for (let i = 0; i < paragraphs.length; i++) {
+  paragraphs[i].style.color = "magenta";
+} 
+
+myHeading.addEventListener("click", () => {
+  myHeading.style.color = "green";
+})
+
+button.addEventListener("click", () => {
+  //myHeading.style.color = "yellow"
+  myHeading.style.color = input.value;
+})
+
+/*let i = 0;
+while (i < paragraphs.length) {
+  paragraphs[i].style.color = "green";
+  i++;
+} */
