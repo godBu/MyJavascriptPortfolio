@@ -1,3 +1,5 @@
 ## JSON
 
-### npm init / npm init -y
+### npm init (creates package.json with questions)
+
+####  npm init -y (creates package.json file without question)
