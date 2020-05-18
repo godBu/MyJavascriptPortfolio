@@ -159,11 +159,23 @@ const myHeading = document.getElementById("heading");
 const button = document.getElementById("button");
 const input = document.getElementById("input");
 const paragraphs = document.getElementsByTagName("p");
+const smallHeading = document.getElementsByClassName("smallerHeading")
+const list = document.querySelectorAll("li");
 
 paragraphs[0].style.color = "red";
 
+
+
+for (let i = 0; i < list.length; i++) {
+  list[i].style.color = "teal";
+} 
+
 for (let i = 0; i < paragraphs.length; i++) {
   paragraphs[i].style.color = "magenta";
+} 
+
+for (let i = 0; i < paragraphs.length; i++) {
+  smallHeading[i].style.color = "teal";
 } 
 
 myHeading.addEventListener("click", () => {
@@ -173,6 +185,7 @@ myHeading.addEventListener("click", () => {
 button.addEventListener("click", () => {
   //myHeading.style.color = "yellow"
   myHeading.style.color = input.value;
+  smallHeading.style.color = input.value;
 })
 
 /*let i = 0;
