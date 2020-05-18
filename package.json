@@ -1,0 +1,20 @@
+{
+  "name": "Master14",
+  "version": "1.0.0",
+  "description": "## Init a repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godBu/MyJavascriptPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/godBu/MyJavascriptPortfolio/issues"
+  },
+  "homepage": "https://github.com/godBu/MyJavascriptPortfolio#readme"
+}
